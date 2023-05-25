@@ -1,0 +1,49 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Vina Sans', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1 {
+    color: #1f3960;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+footer {
+    color: white;
+    background-color: rgb(31, 57, 96);
+
+}
+.logo{
+    width: 7vh;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(90%) brightness(300%);
+    
+  }
+
+  .contenedorCarousel {
+    width: 40%;
+  }
+
+  .colorH2 {
+    color:rgb(31, 57, 96);
+    
+  }
+
+  .bg-azul {
+    background-color:#1f3960 ;
+    color: white
+  }
+  
+  .bg-azul:hover{
+    background-color:aqua ;
+    color: black
+  } 

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arduino Escritorio</title>
+  <!-- Conexion libreria bootStrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- fin libreria BootStrap -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- Tipografias Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&family=Vina+Sans&display=swap"
+    rel="stylesheet">
+  <!-- fin tipografias -->
+</head>
+
+<body class="bg-warning-subtle">
+
+
+  <!-- <h1>Electronica Ved_BA</h1> -->
+  <!-- Login -->
+  <!-- Imagen (boton) carrito -->
+  <!-- Buscador de la pagina -->
+
+<!-- Comienzo header -->
+  <div>
+    <img src="./img/electronica-BANNER.jpg" alt="" class="w-100">
+  </div>
+
+  <header class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container-fluid">
+      
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo-empresa(2).png" class="logo" alt="">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/producto_comprar.html">Añadir al carrito</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/alta_usuario.html">Alta Usuario</a>
+          </li>
+          
+          <!-- dropdown: Se desHabilita -->
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+          <!-- Opcion dropDown -->
+
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar un producto" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </nav>
+    </div>
+  </header>
+<!-- header fin -->
+
+  <main>
+
+    <h1 class="fw-bold text-center">Especialistas microcontroladores: Arduino y Raspberry</h1>
+
+    <!-- Carrousell -->
+    <section class="container contenedorCarousel py-2">
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1">
+          </button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">
+          </button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">
+          </button>
+        </div>
+
+        <div class="carousel-inner active color">
+          <div class="carousel-item active">
+            <img src="./img/Arduino-LilyPad-328.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Arduino Uno LilyPad 328</h5>
+              <!-- <p>Arduino Uno Rev.3 Original.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="./img/display4digitos_7segmentos.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Display 4 digitos</h5>
+              <!-- <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/kit_arduinoMega2560_R3_superstartedkit_900x675.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Kit Arduino Mega 2560</h5>
+              <!-- <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- fin carrousell -->
+
+
+    <!-- SECCIONES -->
+
+    <section class="container ">
+
+      <h2 class="text-center mt-5 colorH2">NOVEDADES</h2>
+
+      <div class="row gap-1">
+
+        <article class="col-12 col-sm w-100 border">
+
+          <!-- Imagen arduino -->
+          <img class="img-fluid  p-1" src="./img/Arduino1_Rev03_02_600x400.jpg" alt="">
+          <p>Arduino Uno Rev.03 Original</p>
+          <p>Precio: $ 5.500</p>
+
+
+
+        </article>
+
+        <article class="col-12 col-sm border text-center">
+
+          <!-- Imagen arduino -->
+          <img class="img-fluid p-1" src="./img/Arduino-2560-Rev3.jpg" alt="">
+
+          <p>Arduino 2560 Rev.3</p>
+          <p>Precio: $ 10.500</p>
+
+        </article>
+
+        <article class="col-12 col-sm  border text-center">
+
+          <!-- Imagen arduino -->
+          <img class="img-fluid p-1" src="./img/arduino-esplora.jpg" alt="">
+          <p>Arduino Esplora</p>
+          <p>Precio: $ 10.500</p>
+        </article>
+
+        <article class="col-12 col-sm  border text-center">
+
+          <!-- Imagen arduino -->
+          <img class="img-fluid p-1" src="./img/Arduino-Nano-33.jpg" alt="">
+          <p>Arduino Nano</p>
+          <p>Precio: $ 10.500</p>
+        </article>
+
+      </div>
+
+    </section>
+    
+<!-- SECCION OFERTAS -->
+<section class="container ">
+
+  <h2 class="text-center mt-5 colorH2">OFERTAS</h2>
+
+  <div class="row gap-1">
+
+    <article class="col-12 col-sm w-100 border text-center">
+
+      <!-- Imagen arduino -->
+      <img class="img-fluid  p-1" src="./img/chip-atMega328-bootloadr-uno.jpg" alt="">
+      <p>Chip Atmega 328 con bootLoader</p>
+      <p>Precio: $ 5.500</p>
+
+
+
+    </article>
+
+    <article class="col-12 col-sm border text-center">
+
+      <!-- Imagen arduino -->
+      <img class="img-fluid p-1" src="./img/audio-Shield-Arduino.jpg" alt="">
+
+      <p>Arduino Shield Audio</p>
+      <p>Precio: $ 10.500</p>
+
+    </article>
+
+    <article class="col-12 col-sm  border text-center">
+
+      <!-- Imagen arduino -->
+      <img class="img-fluid p-1" src="./img/Arduino-Mega-Caja_Transparente.jpg" alt="">
+      <p>Caja Transparente Arduino Mega</p>
+      <p>Precio: $ 10.500</p>
+    </article>
+
+    <article class="col-12 col-sm  border text-center">
+
+      <!-- Imagen arduino -->
+      <img class="img-fluid p-1" src="./img/adaptador-USB_a_Serie-FTDI-CH340.jpg" alt="">
+      <p>Adaptador USB a Serie FTDI CH-340</p>
+      <p>Precio: $ 10.500</p>
+    </article>
+
+  </div>
+
+</section>
+
+  </main>
+
+  <footer class="container-fluid ">
+      <div class="row mt-5">
+        <div class="col-12 col-sm-3 ">
+            <h4 >Como ubicarnos</h4>
+            <span class="d-block">Tucuman #. Vedia (b)</span>
+            <span class="d-block">Telefonos: 023645180000</span>
+            <span class="d-block">eMail: atencionclientes@gmail.com</span>
+        </div>
+
+        <div class="col12 col-sm-4 ">
+            <h4 class="pt-3 pt-sm-0">Informacion General</h4>
+            <p>Somos una casa de electronica, con una fuerte presencia en la ventas de microcontroladores, en especial
+                de Arduino.</p>
+        </div>
+      </div>
+    </footer>
+
+  <!-- Script JavaScript antes del fin Body -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
