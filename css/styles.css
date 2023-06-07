@@ -1,49 +1,60 @@
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Vina Sans', cursive; */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-ul, ol {
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-h1 {
-    color: #1f3960;
-    font-family: 'Roboto', sans-serif;
 
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #1f3960;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #fff0c7;
 }
 
 footer {
-    color: white;
-    background-color: rgb(31, 57, 96);
+  color: white;
+  background-color: rgb(31, 57, 96);
+}
 
+.logo {
+  width: 7vh;
 }
-.logo{
-    width: 7vh;
-}
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    filter: invert(90%) brightness(300%);
-    
-  }
+  filter: invert(90%) brightness(300%);
+}
 
-  .contenedorCarousel {
-    width: 40%;
-  }
+.colorH2 {
+  color: rgb(31, 57, 96);
+}
 
-  .colorH2 {
-    color:rgb(31, 57, 96);
-    
-  }
+.bg-azul {
+  background-color: #1f3960;
+  color: white;
+}
 
-  .bg-azul {
-    background-color:#1f3960 ;
-    color: white
-  }
-  
-  .bg-azul:hover{
-    background-color:aqua ;
-    color: black
-  } 
+.bg-azul:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.navbar-custom {
+  background: linear-gradient(to left, rgb(250, 122, 37) 55%, rgb(21, 124, 172));
+}
+
+.nav-link {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
