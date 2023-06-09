@@ -19,7 +19,7 @@ h1 {
 }
 
 body {
-  background-color: #fff0c7;
+  background: linear-gradient(to bottom left, rgb(31, 57, 96), #ff8000 65%);
 }
 
 footer {
@@ -31,6 +31,11 @@ footer {
   width: 7vh;
 }
 
+.logo:hover {
+  transform: rotatey(180deg) scale(1.5);
+  transition: transform 1s;
+}
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
   filter: invert(90%) brightness(300%);
 }
@@ -40,7 +45,7 @@ footer {
 }
 
 .bg-azul {
-  background-color: #1f3960;
+  background-color: rgb(31, 57, 96);
   color: white;
 }
 
@@ -50,11 +55,16 @@ footer {
 }
 
 .navbar-custom {
-  background: linear-gradient(to left, rgb(250, 122, 37) 55%, rgb(21, 124, 172));
+  background: linear-gradient(to bottom left, rgb(31, 57, 96), #ff8000 65%);
 }
 
 .nav-link {
   color: white;
+}
+
+article:hover {
+  transform: scale(1.1);
+  background-color: rgba(162, 165, 170, 0.979);
 }
 
 /*# sourceMappingURL=styles.css.map */
