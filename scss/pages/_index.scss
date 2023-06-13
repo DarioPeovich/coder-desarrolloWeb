@@ -1,0 +1,16 @@
+@media (min-width: 992px) {
+    .carousel {
+      
+      width: 50%;
+      /* Ajusta el ancho para pantallas grandes */
+    }
+  }
+
+  /* Carrusel para tabletas y dispositivos móviles */
+  @media (max-width: 991px) {
+    .carousel {
+      
+      width: 100%;
+      /* Ajusta ancho max para tabletas y dispositivos móviles */
+    }
+  }

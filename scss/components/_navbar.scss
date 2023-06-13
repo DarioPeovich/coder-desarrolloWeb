@@ -1,0 +1,19 @@
+// Logo de Icono de navBar
+.logo {
+    width: 7vh;
+    &:hover {
+      transform: rotatey(180deg) scale(1.5);
+      transition: transform 1s;
+    }
+  }
+  
+ 
+
+  .navbar-custom {
+
+    background: linear-gradient(to bottom left, $color-azul, $color-naranja 65%);
+  }
+  
+  .nav-link {
+    color: $color-blanco;
+  }

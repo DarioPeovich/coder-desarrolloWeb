@@ -38,12 +38,12 @@ footer {
     
   }
 
-  .bg-azul {
+  .btn-azul {
     background-color:#1f3960 ;
     color: white
   }
   
-  .bg-azul:hover{
+  .btn-azul:hover{
     background-color:aqua ;
     color: black
   } 

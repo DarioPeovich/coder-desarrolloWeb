@@ -1,0 +1,12 @@
+.btn-azul {
+  background-color: $color-azul;
+  border-color: $color-blanco;
+  color: $color-blanco;
+
+  &:hover {
+    background-color: aqua;
+    color: $color-negro;
+  
+  }
+}
+
