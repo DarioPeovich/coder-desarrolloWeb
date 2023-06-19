@@ -16,7 +16,6 @@ a {
 h1 {
   color: white;
   font-family: "Roboto", sans-serif;
-  text-shadow: 4px 3px 0px #7A7A7A;
 }
 
 .colorH2 {
@@ -36,6 +35,11 @@ body {
 article:hover {
   transform: scale(1.1);
   background-color: rgba(79, 136, 211, 0.76);
+}
+
+.tarjetas-estilo {
+  border: 2px solid white; /* Cambia el grosor y el color del borde */
+  border-radius: 10px; /* Cambia la curvatura de los bordes */
 }
 
 .btn-azul {
@@ -231,6 +235,11 @@ article:hover {
     animation-timing-function: ease-out;
   }
 }
+.tipografia-parrafago-carrito {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+}
+
 .tracking-in-contract-bck-bottom {
   animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }

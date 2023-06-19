@@ -18,11 +18,12 @@ $color-negro:black;
     text-decoration: none;
   }
   
+  // Oswald Roboto Montserrat
   h1 {
     // color: #1f3960;
     color:$color-blanco;
     font-family: 'Roboto', sans-serif;
-    text-shadow: 4px 3px 0px #7A7A7A;
+    //text-shadow: 4px 3px 0px #7A7A7A;
   
   }
   
@@ -37,8 +38,9 @@ $color-negro:black;
   }
 
   body {
-    //background-color: rgb(255, 240, 199);
+
     background: linear-gradient(to bottom left, $color-azul, $color-naranja 65%);
+    
   }
 
   article:hover {
@@ -46,4 +48,7 @@ $color-negro:black;
     background-color: rgba(79, 136, 211, 0.76);
   }
   
-
+  .tarjetas-estilo {
+    border: 2px solid white; /* Cambia el grosor y el color del borde */
+    border-radius: 10px; /* Cambia la curvatura de los bordes */
+  }

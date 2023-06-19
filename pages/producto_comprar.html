@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Desde aqui vas a agegar un producto a tu carrito de compras. Ved-Ba: Especialistas Arduino y Raspberry">
+    <meta name="description"
+        content="Desde aqui vas a agegar un producto a tu carrito de compras. Ved-Ba: Especialistas Arduino y Raspberry">
     <title>Agregar al Carrito│Arduino Ved-BA</title>
 
     <!-- Conexion libreria bootStrap -->
@@ -14,11 +15,11 @@
     <!-- fin libreria BootStrap -->
 
     <link rel="stylesheet" href="../css/styles.css">
+    
     <!-- tipografias -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&family=Vina+Sans&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Roboto:wght@100;400;900&family=Vina+Sans&display=swap" rel="stylesheet">
     <!-- Fin tipografias -->
 
 
@@ -62,23 +63,6 @@
                         <a class="nav-link " href="../pages/alta_usuario.html">Alta Usuario</a>
                     </li>
 
-                    <!-- dropdown: Se desHabilita -->
-                    <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li> -->
-                    <!-- Opcion dropDown -->
-
-
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar un producto" aria-label="Search">
@@ -95,27 +79,25 @@
         <section class="container bounce-in-top">
 
             <div class="row p-2">
-                
+
 
                 <div class="d-flex flex-column align-items-center">
 
-                   
-                    <article class="col-12 col-sm-4  border text-center">
+
+                    <article class="col-12 col-sm-4 text-center tarjetas-estilo">
 
                         <!-- Imagen arduino -->
-                        <img class="img-fluid" src="../img/Arduino1_Rev03_02_600x400.jpg" alt="">
+                        <img class="img-fluid p-1" src="../img/Arduino1_Rev03_02_600x400.jpg"
+                            alt="Arduino 1 Rev.03 Original">
                         <h3>Arduino 1 Rev.03 Original</h3>
                         <h4>Precio: $ 5.500</h4>
                     </article>
                 </div>
             </div>
             <div class="row p-2 border mt-3">
-                <!-- <div class="col"> -->
                 <!-- Ingreso de la Cantidad a Comprar -->
                 <form action="">
 
-                    <!-- <label for="stock">Stock</label>
-                         <input type="text" id="stock"> -->
                     <div class="col-sm-6">
 
                         <span>Stock: 12</span>
@@ -123,7 +105,7 @@
 
                         <label class="d-flex" for="cantidad">Cantidad</label>
                         <div>
-                            <!-- <label for="cantidad">Agregar</label> -->
+                            
                             <input type="text" class="form-control" placeholder="ingresa la cantidad deseada"
                                 id="cantidad">
                         </div>
@@ -132,12 +114,87 @@
                     <div class="d-flex flex-column align-items-center mt-3">
                         <input type="submit" class="btn btn-azul" value="Agregar">
                     </div>
-                    <!-- </div> -->
+                    
             </div>
             </form>
 
 
         </section>
+
+        <!-- -- Descripcion Producto <Producto comprar>- -->
+
+        <section class="container">
+
+
+            <div class="row">
+                <span class="mt-5 fw-bold">Descripcion general</span>
+                <div class="col-12 col-sm-6 mt-2 pl-1">
+                    <span class="d-block w-100 bg-body-tertiary text-black p-1">Caracteristicas</span> 
+                    
+                    <p class="tipografia-parrafago-carrito ">
+
+                        <br>
+                        Arduino UNO Rev3 es la última versión disponible de la tarjeta Arduino original. <br>
+                        <br>
+                        Es una tarjeta electronica basada en el microcontrolador Atmega328.<br>
+                        <br>
+                        Dispone de 14 entradas/salidas digitales, 6 de las cuales se pueden emplear como salidas PWM (modulación de anchura de pulsos).<br>
+                        <br>
+                        Dispone también de 6 entradas analogicas, un oscilador de 16MHz, una conexión USB, un conector de alimentación, un conector ICSP y un pulsador para el reset. Para empezar a utilizar la placa sólo es necesario conectarla al ordenador a traves de un cable USB (no incluído), o bien alimentarla con un adaptador de corriente AC/DC (no incluído).<br>
+                        <br>
+                        En esta versión de la tarjeta Arduino UNO, una de las diferencias más importante respecto a sus predecesoras, es que no utiliza el convertidor USB-serie de la empresa FTDI. Por lo contrario, integra un microcontrolador Atmega16U2 (Atmega8U2 version R2) programado como un convertidor USB a serie <br>
+                        <br>
+                        * Revisión 2 de Arduino Uno tiene una resistencia tirando de la línea HWB 8U2 a tierra, haciéndolo más fácil de poner en modo DFU.<br>
+                        <br>
+                        * Revisión 3 de Arduino Uno tiene las siguientes características nuevas:<br>
+                        <br>
+                        - 1.0 pinout: añadido a pines SDA y SCL que se colocan cerca del pin AREF y pasadores nuevos cerca el pin RESET, el IOREF que permiten los escudos para adaptarse a la tensión de la tarjeta. En el futuro, los escudos serán compatibles con ambos, la tarjeta que utiliza el AVR, que opera con 5V y con Arduino Due que opera con 3.3V. El segundo es un pin no conectado, que está reservado para los propósitos futuros.<br>
+                        <br>
+                        - El circuito de RESET más consistente.<br>
+                        <br>
+                        - Atmega 16U2 reemplaza el 8U2.<br>
+
+                    </p>
+
+
+                </div>
+
+                <div class="col-12 col-sm-5 offset-sm-1 mt-2">
+
+                    <span class="d-block w-100 bg-body-tertiary text-black p-1">Especificaciones</span> 
+                    
+                    <p class="tipografia-parrafago-carrito">
+                        <br>
+                        * Microcontroller: ATmega328 <br>
+                        <br>
+                        * Operating Voltage: 5V <br>
+                        <br>
+                        * Input Voltage (recommended): 7 - 12V <br>
+                        <br>
+                        * Input Voltage (limits): 6 - 20V <br>
+                        <br>
+                        * Digital I/O Pins: 14 (of which 6 provide PWM output) <br>
+                        <br>
+                        * Analog Input Pins: 6 <br>
+                        <br>
+                        * DC Current per I/O Pin: 40 mA <br>
+                        <br>
+                        * DC Current for 3.3V Pin: 50 mA <br>
+                        <br>
+                        * Flash Memory: 32 KB (ATmega328) of which 0.5 KB used by bootloader <br>
+                        <br>
+                        * SRAM: 2 KB (ATmega328) <br>
+                        <br>
+                        * EEPROM: 1 KB (ATmega328) <br>
+                        <br>
+                        * Clock Speed: 16 MHz <br>
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+        <!-- Fin Descripcion Producto <Producto comprar> -->
+
     </main>
     <footer class="container-fluid footer">
         <div class="row mt-5">
