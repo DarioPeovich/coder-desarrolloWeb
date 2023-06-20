@@ -2,6 +2,8 @@ $color-azul: rgb(31, 57, 96);
 $color-naranja: #ff8000;
 $color-blanco: white;
 $color-negro:black;
+$color-aqua:aqua;
+$color-verde-amarillo:rgb(203, 235, 25);
 
 
 * {
@@ -49,6 +51,6 @@ $color-negro:black;
   }
   
   .tarjetas-estilo {
-    border: 2px solid white; /* Cambia el grosor y el color del borde */
+    border: 2px solid $color-blanco; /* Cambia el grosor y el color del borde */
     border-radius: 10px; /* Cambia la curvatura de los bordes */
   }

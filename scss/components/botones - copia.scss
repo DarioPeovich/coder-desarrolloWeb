@@ -1,3 +1,35 @@
+// .btn-azul {
+//   background-color: $color-azul;
+//   border-color: $color-blanco;
+//   color: $color-blanco;
+
+//   &:hover {
+//     background-color: aqua;
+//     color: $color-negro;
+  
+//     &:active {
+//       background-color: rgb(203, 235, 25);
+//       color: black;
+//     }
+//   }
+// }
+
+// .btn-comprar {
+//   background-color: $color-blanco;
+//   border-color: black;
+//   color: $color-negro;
+//   box-shadow: 5px 2px 10px 5px rgba(0,0,0,0.59);
+//   &:hover {
+//     background-color: aqua;
+//     color: $color-negro;
+  
+//      &:active {
+//        background-color: rgb(203, 235, 25);
+//        color: black;
+//      }
+//   }
+// }
+
 
 // ---MIXIN´S
 @mixin botones($bg-color, $borde-color, $txt-color, $hover-bg-color, $hover-txt-color, $active-bg-color, $active-txt-color) {

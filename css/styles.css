@@ -51,6 +51,24 @@ article:hover {
   background-color: aqua;
   color: black;
 }
+.btn-azul:hover:active {
+  background-color: rgb(203, 235, 25);
+  color: black;
+}
+
+.btn-comprar {
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+.btn-comprar:hover {
+  background-color: aqua;
+  color: black;
+}
+.btn-comprar:hover:active {
+  background-color: rgb(203, 235, 25);
+  color: black;
+}
 
 .logo {
   width: 7vh;
