@@ -1,2 +1,0 @@
-#Se ignora en Git el archivo copia de botones.scss
-botones-copia.scss

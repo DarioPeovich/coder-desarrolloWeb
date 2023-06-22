@@ -4,6 +4,7 @@
   background-color: $bg-color;
   border-color: $borde-color;
   color: $txt-color;
+  
   &:hover {
     background-color:$hover-bg-color;
     color: $hover-txt-color;
@@ -22,7 +23,9 @@
 }
 
 .btn-comprar {
-  @include botones($color-blanco, $color-negro, $color-negro, $color-aqua, $color-negro, $color-verde-amarillo, $color-negro)
+  
+  @include botones($color-blanco, $color-negro, $color-negro, $color-aqua, $color-negro, $color-verde-amarillo, $color-negro);
+  box-shadow: 5px 2px 10px 5px rgba(0,0,0,0.59);
 }
 
 
