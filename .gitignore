@@ -1,4 +1,2 @@
 #Se ignora en Git el archivo copia de botones.scss
 scss/components/botones-copia.scss
-#Se ignora copia de styles.css antes de impmentar SASS
-css/styles-copia.css
