@@ -1,8 +1,8 @@
-# Proyecto Final del modulo Desarrollo Web
+# Proyecto Desarrollo Web - Presentación Final -  
 
-## Breve descripcion
+## Breve descripción
 ***
-Mi proyecto es básicamente un e-Commerce, donde en su index.html se muestra un carousel y las tarjetas de los productos en oferta y las novedades.
+    Mi proyecto es básicamente un e-Commerce, donde en su index.html se muestra un carousel y las tarjetas de los productos en oferta y las novedades.
     Cada tarjeta posee su botón comprar, que al hacer click en él se redirige al usuario a la sección de agregar al carrito. 
     Por supuesto, en la sección agregar al carrito de compras siempre se muestra la misma imagen. La idea es que, con el curso de Java Script, logre mostrar el producto que se seleccionó.
     Desde el menú se puede acceder a todas las secciones del Sitio.
@@ -21,9 +21,9 @@ Mi proyecto es básicamente un e-Commerce, donde en su index.html se muestra un 
 
 ## Hosting
 ***
- Se subió el proyecto a Vercel, accediendo desde https://coder-desarrollo-web-rho.vercel.app/
+    Se subió el proyecto a Vercel, accediendo desde https://coder-desarrollo-web-rho.vercel.app/
 
-## Transisiones y Animaciones
+## Transiciones y Animaciones
     Se aplicaron en algunas secciones.
 
 ## Idea final
@@ -32,9 +32,9 @@ Mi proyecto es básicamente un e-Commerce, donde en su index.html se muestra un 
 
 ## Pd:
     Un placer haber realizado el curso con Uds.
-    Yo soy programador desde que existía DOS, por vueltas de la vida me aleje varios años y me perdí el tren WEB, hoy diría que comencé a transitarlo.
+    Ando en el mundo de la programación desde que existía DOS pero, por vueltas de la vida me aleje varios años y me perdí el tren WEB, hoy diría que comencé a transitarlo.
     Marco, José: un abrazo, y espero verlos en algún otro curso.
-    Muchas gracias por la enseñanza
+    Muchas gracias por la enseñanza!
 
 
 
