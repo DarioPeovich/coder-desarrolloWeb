@@ -21,7 +21,9 @@
 
 ## Hosting
 ***
-    Se subió el proyecto a Vercel, accediendo desde https://coder-desarrollo-web-rho.vercel.app/
+
+    Se subió el proyecto a Vercel, accediendo desde:
+ https://coder-desarrollo-web-rho.vercel.app/
 
 ## Transiciones y Animaciones
     Se aplicaron en algunas secciones.
